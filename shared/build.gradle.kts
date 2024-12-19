@@ -3,7 +3,6 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlinx.serialization)
     alias(libs.plugins.buildConfig)
-    id("convention.publication")
 }
 
 group = "kmp.shared"
